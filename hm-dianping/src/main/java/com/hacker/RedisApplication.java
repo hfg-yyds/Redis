@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class RedisApplication {
 
+    // XGROUP CREATE stream.orders g1 0 MKSTREAM
     public static void main(String[] args) {
         SpringApplication.run(RedisApplication.class, args);
     }
